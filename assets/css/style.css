@@ -1,0 +1,162 @@
+/* ==========Global========== */
+
+@font-face {
+    font-family:"opensans" ;
+    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family:"fredericka" ;
+    src: url(../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------classes---------- */
+
+
+.openSansFont{
+    font-family: "opensans",sans-serif;
+}
+
+.frederickaFont{
+    font-family: "fredericka",sans-serif;
+}
+
+.whiteFont{
+    color:white;
+}
+
+
+.centerText{
+    text-align: center;
+}
+
+.removeListStyle{
+    list-style-type: style none; ;
+}
+
+
+/* ==========Header========== */
+
+
+
+header{
+    background: url(../img/Lev3_2_css-einführung_box-model_img.jpg);
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 66px;
+    
+}
+
+
+/* ----------Logo---------- */
+
+
+header h1{
+    font-family: "fredericka",sans-serif;
+    margin-left: 100px;
+}
+
+
+
+
+/* ----------h2,Paragraph,Button in <article>---------- */
+
+
+
+header article{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+}
+
+header article h2{
+    margin-bottom: 15px;
+} 
+
+header article p{
+    margin-bottom: 15px;
+
+}
+
+.buttonHeader{
+    display: block;
+    width: 120px;
+    height: 25px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+header article a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.unsortedListHeader{
+    margin-top: 200px;
+    margin-right: 150px;
+    text-align: end;
+    line-height: 40px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
+header nav ul a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/* ==========main========== */
+
+
+
+
+main article{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+}
+
+main article h3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+main article a div{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px;;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    width: 140px;
+}
+
+main article a{
+    text-decoration: none;
+    line-height: 30px;
+}
+
+main article a div h5:hover{
+    text-decoration: underline;
+}
+
+
+    
