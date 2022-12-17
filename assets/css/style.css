@@ -130,7 +130,7 @@ main article{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 400px;
+    width: 450px;
 }
 
 main article h3{
@@ -138,24 +138,28 @@ main article h3{
     margin-bottom: 30px;
 }
 
-main article a div{
+main article div{
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    margin-bottom: 100px;
     padding: 10px;;
     text-decoration: none;
     color: black;
-    border: 1px solid black;
+    border: 2px solid black;
     width: 140px;
 }
 
-main article a{
+
+
+main article div a{
     text-decoration: none;
-    line-height: 30px;
+    color: black;
+    font-size: 15px;
 }
 
-main article a div h5:hover{
-    text-decoration: underline;
+main article div h5{
+    margin-bottom: 15px;
 }
 
 
