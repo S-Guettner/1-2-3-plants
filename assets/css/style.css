@@ -121,6 +121,7 @@ header nav ul a:hover{
 
 
 
+
 /* ==========main========== */
 
 
@@ -133,10 +134,15 @@ main article{
     width: 450px;
 }
 
+/* ----------h3---------- */
+
 main article h3{
     margin-top: 50px;
     margin-bottom: 30px;
 }
+
+
+/* ----------contact button---------- */
 
 main article div{
     margin-left: auto;
@@ -150,12 +156,14 @@ main article div{
     width: 140px;
 }
 
-
-
 main article div a{
     text-decoration: none;
     color: black;
     font-size: 15px;
+}
+
+main article div a:hover{
+    text-decoration: underline;
 }
 
 main article div h5{
@@ -163,4 +171,61 @@ main article div h5{
 }
 
 
-    
+
+
+/* ==========Footer========== */
+
+footer{
+    background-color:#1c2336;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+/* ----------article---------- */
+
+footer article{
+    margin:30px;
+    width: 600px;
+}
+
+footer article p{
+    margin-bottom: 30px;
+}
+
+
+/* ----------button---------- */
+
+footer article a{
+    padding: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+footer article a:hover{
+    background-color: white;
+    color:#1c2336;
+}
+
+
+/* ----------nav---------- */
+
+
+footer nav ul li{
+    display: inline;
+    margin:20px;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+}
+
+footer nav ul li a:hover{
+    text-decoration: underline;
+}
+
+footer nav{
+    text-align: end;
+    margin-right: 15px;
+}
